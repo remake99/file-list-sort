@@ -1,0 +1,22 @@
+{
+  /**
+    需要設定這個參數確保使用alias path
+    https://github.com/Microsoft/vscode/issues/59815
+    */
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  // "typescript.suggest.autoImports": false,
+  // "javascript.suggest.autoImports": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+  },
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+  ],
+  "editor.formatOnSave": false,
+}
