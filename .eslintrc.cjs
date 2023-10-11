@@ -7,8 +7,8 @@ module.exports = {
 
   parserOptions: {
     project: [
-      "./tsconfig.json",
-    ],
+      "./tsconfig.json"
+    ]
   },
   extends: [
     "eslint:recommended",
