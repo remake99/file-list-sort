@@ -1,16 +1,19 @@
 {
   "name": "file-list-sort",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
-  "types":"dist/index.d.ts",
+  "types": "src/index.ts",
   "scripts": {
     "watch": "tsc -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "files":["dist"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "@typescript-eslint/parser": "^6.7.5",
